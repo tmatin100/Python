@@ -1,11 +1,12 @@
 #Let's create our own API using python 
 
-#import flask and assigned the flask app to a variable named app. 
+#import flask and request object
 from flask import Flask, request
 
 #import and create the database
 from flask_sqlalchemy import SQLAlchemy 
 
+#assign the flask app to a variable named app. 
 app = Flask(__name__)
 
 #configure the database
