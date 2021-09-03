@@ -3,7 +3,7 @@
 #import flask and request object
 from flask import Flask, request
 
-#import and create the database
+#import and create the SQLAlchemy database
 from flask_sqlalchemy import SQLAlchemy 
 
 #assign the flask app to a variable named app. 
