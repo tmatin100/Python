@@ -46,7 +46,7 @@ def get_drinks():
     return {"drinks": output}
 
 
-#create a new route, so we can pass in just the id to get a drink , and if it doesn exist we can get  404 page. 
+#create a new route, so we can pass in just the id to get a drink , and if it doesn exist we can get a 404 page. 
 @app.route('/drinks/<id>')
 
 #define a new method with 'drink' variable where we can pass in the id 
