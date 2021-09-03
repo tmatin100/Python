@@ -31,7 +31,7 @@ class Drink(db.Model):
 def index():
     return 'Hello!'
 
-#Figure out how to route it to the /drinks path hint:  Drinks.query.all()
+#Let's figure out how to route it to the /drinks path hint:  Drinks.query.all()
 #We're going define an empty list for outputs,  we will iterate through drinks, and describe what it will look like, in this case a dictionary, 
 #and append it to the empty list, in this case output=[]. Another words we are createing a list of dictionary. 
  
