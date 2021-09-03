@@ -12,7 +12,7 @@ app = Flask(__name__)
 #configure the database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite: ///data.db'
 
-#define db is an instance of alchemy and pass in the flask app variable we have assined earlier
+#define db is an instance of alchemy and pass in the flask app variable we have assigned earlier
 db = SQLAlchemy(app)
 
 #create a class that is going to inherit from db.Model (define the model)
