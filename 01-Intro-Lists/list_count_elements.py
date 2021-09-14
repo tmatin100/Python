@@ -1,12 +1,10 @@
 # we are going to count a particular element in a list. 
-# The len function gives you the length of the list which is the total number
-#number of elements in a list 
-
-backpack = ["sword", "sword", "rubber duck", "slice of pizza", "parachute"]
 
 #The len function gives you the length of the list which is the total number
-#number of elements in a list, inthis case there are 4 items in a list so the result 
-#5. 
+#number of elements in a list, in this case there are 4 items in a list so the result is 4. 
+
+backpack = ["sword","rubber duck", "slice of pizza", "parachute"]
+
 
 print(len(backpack))
 
