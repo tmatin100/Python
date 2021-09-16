@@ -17,7 +17,8 @@ for i in range(len(grades)):
         print(grades[i] [j], end=" ")
     print()
 
-#another way to do it
+#another way to do it by using the isinstance function to check if 
+# "inner" is a list
 for inner in grades:
     if  isinstance(inner, list):
         for grade in inner:
