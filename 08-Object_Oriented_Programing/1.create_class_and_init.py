@@ -40,7 +40,7 @@ else:
     print("nope, not a book")
 
 #We can add attributes to any object dynamically like so:
-book.title = "Goodnight Moon"
+book.title = "The Alchemist"
 print(book.title)
 
 
