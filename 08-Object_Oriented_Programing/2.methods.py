@@ -18,7 +18,7 @@ class Book():
         return False
 
 #we can invoke the funciton and pass in the values
-book = Book("Are You My Mother?", 72)
+book = Book("The Kite Runner", 72)
 
 print(book.title)
 print(book.is_long())
