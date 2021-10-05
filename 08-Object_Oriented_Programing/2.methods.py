@@ -9,7 +9,7 @@ class Book():
     def __init__(self, title, pages):
         self.title = title
         self.pages = pages 
-    #creating a method, anytime we create a method we have to pass the self variable.
+    #creating a method- anytime we create a method we have to pass the self variable.
     #which refers to the object we are creating in this case Book().
 
     #this a custom method called is_long, which is just a function 
