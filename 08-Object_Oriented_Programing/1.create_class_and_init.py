@@ -61,8 +61,8 @@ book = Book("Are You My MOther?")
 print(book.title)
 
 #We then pass a title to the Book as we create it:
-book = Book("Goodnight Moon Again")
-book2 = Book("Are You My Mother")
+book = Book("The Kite Runner")
+book2 = Book("The Alchemist")
 print(book.title)
 print(book2.title)
 
