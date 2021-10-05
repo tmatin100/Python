@@ -3,6 +3,8 @@
 #We can define any functions to be attached to our objects by putting them in our class
 #We just have to have the implicit parameter self
 
+#Let's create an object named Book
+
 class Book():
     def __init__(self, title, pages):
         self.title = title
