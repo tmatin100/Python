@@ -27,8 +27,8 @@ class Book():
         return False 
 
 #we are creating objects named book and book1 here using the Book() class
-book = Book("Are You My Mother?", 72)
-book2 = Book("The Digging-est Dog", 72)
+book = Book("The Kite Runner?", 72)
+book2 = Book("The Alchemist", 72)
 
 # we are refereing to the class here (Book.favorites), not creating objects like above.
 Book.favorites.append(book)
