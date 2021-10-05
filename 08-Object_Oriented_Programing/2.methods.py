@@ -19,12 +19,13 @@ class Book():
             return True 
         return False
 
-#we can invoke the funciton and pass in the values
+#we can invoke the Book() funciton and pass in the values
 book = Book("The Kite Runner", 72)
 
 print(book.title)
 print(book.is_long())
 
+# can check another using the same custom Book() function we've created
 book2 = Book("The Alchemist", 168)
 print(book2.title)
 print(book2.is_long())
