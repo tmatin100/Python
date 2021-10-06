@@ -4,18 +4,16 @@
 #What is object oriented programming?
 #Well, it allows us to represent anything we want in our code. 
 #So far we've represent diffetnet data types using strings, lists, dictionaries etc.
-# What if for example we want to use a datatype book? Well, there is no data type for that type. So
+# What if for example we want to use a datatype book? Well, there is no data type for that type. 
 #Hence, we can define a custom data type named book. With OOP we can represent any 
 # type of data based on our needs. 
 
 #classes- act as a blueprint for an object, however it is not the same as the
-#the actual object. ex. a cookie cutter which defines the shape of a cookie
-
-object 
+#the actual object. ex. a cookie cutter which defines the shape of a cookie object 
 
 #inorder to create a class we use the keyord class and give it a name in this case Book(). 
 class Book():
-    pass         #we can use the keyord pass to not assing any value
+    pass         #we can use the keyord pass to not assign any value
 
 
 
@@ -40,7 +38,7 @@ else:
     print("nope, not a book")
 
 #We can add attributes to any object dynamically like so:
-book.title = "The Alchemist"
+book.title = "The Kite Runner"
 print(book.title)
 
 
@@ -56,7 +54,7 @@ class Book():
         # init is an initialzer or a constructor, which is invoked when we create a new book
         self.title = title
 
-book = Book("Are You My MOther?")
+book = Book("The Kite Runner")
 
 print(book.title)
 

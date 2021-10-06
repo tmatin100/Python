@@ -1,6 +1,6 @@
 ########## Class Level Variables ##########
 
-#We're going to talk about class variables.
+#We're going to talk about class level variables.
 #Coming from another language, this would be the closest thing to "static" members
 #First, we need to understand self.
 
@@ -14,6 +14,7 @@
 #if we leave off self, we are creating it at the class level, which is shared for all objects
 
 #Book() is the class
+
 class Book():
     favorites = []  # class level variable, does not have self like bellow 
 
@@ -27,10 +28,10 @@ class Book():
         return False 
 
 #we are creating objects named book and book1 here using the Book() class
-book = Book("The Kite Runner?", 72)
+book = Book("The Kite Runner", 168)
 book2 = Book("The Alchemist", 72)
 
-# we are refereing to the class here (Book.favorites), not creating objects like above.
+# we are refereing to the class Book() here (Book.favorites), and not creating objects like above (book = ) . 
 Book.favorites.append(book)
 Book.favorites.append(book2)
 
