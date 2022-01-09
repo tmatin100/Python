@@ -1,5 +1,11 @@
 ########## __hash__ and Collections ##########
+# Python hash() function is a built-in function and returns the hash value of an object if it has one. 
+#The hash value is an integer which is used to quickly compare dictionary keys while looking at a dictionary.
+#Properties of hash() function:
+# -Objects hashed using hash() are irreversible, leading to loss of information.
+# -hash() returns hashed value only for immutable objects, hence can be used as an indicator to check for mutable/immutable objects.
 
+#hashes shoud not change, 
 class Book():
     favs = [] #class
 
