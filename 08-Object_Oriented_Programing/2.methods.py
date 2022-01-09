@@ -4,7 +4,7 @@
 #Basically __int__ is what's invoked 
 #We can define any functions to be attached to our objects by putting them in our class
 #We just have to have the implicit parameter self
-#anytime we refer to self, we are just refering to the object. 
+#anytime we refer to self, we are just refering to the object, it is implicit so we dont passs any parametrs for it. 
 class Book():
     def __init__(self, title, pages):
         self.title = title
