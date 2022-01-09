@@ -27,7 +27,7 @@ book2 = Book()    #book object
 print(book)
 print(book2)
 
-#We can also get the type using the type funciton():
+#We can also get the type using the type() funciton:
 print(type(book))
 print(type(book2))
 
