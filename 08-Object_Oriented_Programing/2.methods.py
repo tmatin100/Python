@@ -1,5 +1,6 @@
 ########## Methods ##########
 #A method is just a function attached to an object.
+#we creted a method with the method/fucntion initializer or the constructor, aka __Init__ , to create a funciton inside this class. 
 #We can define any functions to be attached to our objects by putting them in our class
 #We just have to have the implicit parameter self
 
