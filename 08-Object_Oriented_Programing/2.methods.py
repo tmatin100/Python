@@ -3,7 +3,7 @@
 #we creted a method with the method/fucntion initializer or the constructor, aka __Init__ , to create a method/funciton inside this class. 
 #We can define any functions to be attached to our objects by putting them in our class
 #We just have to have the implicit parameter self
-
+#anytime we refer to self, we are just refering to the object. 
 class Book():
     def __init__(self, title, pages):
         self.title = title
