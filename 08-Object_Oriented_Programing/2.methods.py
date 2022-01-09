@@ -1,6 +1,7 @@
 ########## Methods ##########
 #A method is just a function attached to an object.
 #we creted a method with the method/fucntion initializer or the constructor, aka __Init__ , to create a method/funciton inside this class. 
+#Basically __int__ is what's invoked 
 #We can define any functions to be attached to our objects by putting them in our class
 #We just have to have the implicit parameter self
 #anytime we refer to self, we are just refering to the object. 
@@ -8,11 +9,12 @@ class Book():
     def __init__(self, title, pages):
         self.title = title
         self.pages = pages 
-    #creating a method, anytime we create a method we have to pass the self variable.
+        
+    #creating a new method called is_long, anytime we create a method we have to pass in the "self" variable.
     #which refers to the object we are creating in this case book.
 
-    #this a custom method called is_long, which is just a function 
-    # attached to an object named book.
+    #this a custom method called is_long, which is just a function attached to an object named book.
+    #anytime we create a method we just have to create a parameter called self. 
     def is_long(self):
         if self.pages > 100: 
             return True 
