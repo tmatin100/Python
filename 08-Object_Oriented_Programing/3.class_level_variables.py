@@ -16,7 +16,7 @@
 #Book() is the class
 
 class Book():
-    favorites = []  # class level variable, does not have self like bellow 
+    favorites = []  # class level variable, does not have self like, the oject level variables bellow (_init_, is_long)
 
     def __init__(self, title, pages): 
         self.title = title
@@ -27,7 +27,7 @@ class Book():
             return True
         return False 
 
-#we are creating objects named book and book1 here using the Book() class
+#we are creating objects named book and book2 here using the Book() class
 book = Book("The Kite Runner", 168)
 book2 = Book("The Alchemist", 72)
 
