@@ -46,7 +46,7 @@ print(book == book2)
     def __eq__(self, other):
         if(self.title == other.title and self.pages == other.pages):
             return True
-     return Flase 
+     return False
     
 #comparison is now true true  since they have the same attributes such as title and pages. 
 book = Book("The Alchemist", 72)
