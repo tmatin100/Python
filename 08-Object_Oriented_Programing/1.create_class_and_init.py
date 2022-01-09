@@ -44,7 +44,8 @@ print(book.title)
 
 #This is cool and all but every book has a title, so we can make it part of the structure
 #This requires a bit more syntax...
-#also notice that you can override any class as we go. #the self keyord represents the object
+#also notice that you can override any class as we go. 
+#the self keyord represents the object
 
 #consider this the constructor, or the function that is invoked when we create a book.
 #self refers to the book being created and we don't have to worry about passing that, it's implicit
