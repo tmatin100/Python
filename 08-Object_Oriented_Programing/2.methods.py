@@ -20,7 +20,8 @@ class Book():
             return True 
         return False
 
-#we can invoke the funciton and pass in the values, how ever we dont need to pass the value for self since its implicit. 
+#we can invoke the funciton and pass in the values, how ever we dont need to pass the value for self since its implicit, which refers the ojbect
+#we are invoking in this case book. 
 #we are just passing in the values for tittle, and pages. 
 book = Book("The Kite runner", 168)
 print(book.title)
