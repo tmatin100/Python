@@ -32,6 +32,7 @@ book = Book("The Kite Runner", 168)
 book2 = Book("The Alchemist", 72)
 
 # we are refereing to the class Book() here (Book.favorites), and not creating objects like above (book = ) . 
+#and appending two objects to the list book and book2. 
 Book.favorites.append(book)
 Book.favorites.append(book2)
 
