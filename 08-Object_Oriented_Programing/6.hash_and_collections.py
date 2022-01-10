@@ -1,12 +1,11 @@
 ########## __hash__ and Collections ##########
-########## __hash__ and Collections ##########
 # Python hash() function is a built-in function and returns the hash value of an object if it has one. 
 #  The hash value is an integer which is used to quickly compare dictionary keys while looking at a dictionary.
 # Properties of hash() function:
 #  -Objects hashed using hash() are irreversible, leading to loss of information.
 #  -hash() returns hashed value only for immutable objects, hence can be used as an indicator to check for mutable/immutable objects.
 
-#The best practice when we override the  equals method ( __eq__ ) it best practice to deal with the hash method (__hash__).
+#The best practice when we override the  equals method ( __eq__ ) is to deal with the hash method (__hash__).
 #  We can either create our own custom implementaiton for it, or we can simply state that we are not going to use the hash methord by seting it to None. 
 # __hash_ = None is the default when we override __eq__ (Book is not hashable)
 # The hash method is typically used for any hashing data structres, such as Sets and Dictionaries. 
