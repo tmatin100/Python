@@ -1,0 +1,19 @@
+# Python string methods https://www.w3schools.com/python/python_ref_string.asp
+#Python string functions https://www.w3schools.com/python/python_ref_functions.asp
+
+# len() function 
+print(len('hello'))
+
+greet = 'hello'
+print(greet[0:len(greet)])
+print(greet[0:5])
+
+#.upper() method 
+qoute = 'to be or not to be'
+print(qoute.upper())
+print(qoute.capitalize())
+print(qoute.replace('be', 'me'))
+print(qoute)
+
+qoute2 = qoute.replace('be', 'me')
+print(qoute2)
